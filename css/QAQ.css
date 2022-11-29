@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+    font-size: 10px;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+}
+
+.function {
+    position: absolute;
+    top: 25vw;
+    width: 100vw;
+    height: 150vw;
+}
+
+.search {
+    width: 100%;
+    height: 20vw;
+    line-height: 20vw;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.select {
+    position: absolute;
+    left: 80vw;
+    border-radius: 5vw;
+    top: 5.3vw;
+    height: 10vw;
+    box-sizing: border-box;
+    border-style: none;
+    outline: none;
+    width: 18vw;
+}
+
+.choice div {
+    height: 10vw;
+    font-size: 3vw;
+    line-height: 10vw;
+    width: 18vw;
+}
+
+.arrowhead {
+    position: absolute !important;
+    height: 10vw;
+    line-height: 10vw !important;
+    left: 94vw;
+    font-size: 3vw;
+    top: 5.3vw !important;
+}
+
+.search>input {
+    border-radius: 5vw;
+    text-align: center;
+    height: 10vw;
+    width: 97vw;
+    padding: 3vw;
+    padding-right: 18vw;
+    box-sizing: border-box;
+    border-style: none;
+    outline: none;
+    background: rgba(255, 255, 255, .4);
+}
+
+.ulBox {
+    margin-top: 10vw;
+    width: 90vw;
+    height: 110vw;
+    overflow: auto;
+    margin-left: 5vw;
+}
+
+.shadow {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 110vw;
+    top: 20vw;
+    background: none;
+    z-index: 2;
+}
+
+ul>li {
+    position: relative;
+    float: left;
+    width: 22vw;
+    height: 22vw;
+    text-align: center;
+}
+
+ul>li:hover {
+    background-color: rgba(255, 255, 255, .2)
+}
+
+ul>li>a>div,
+.father {
+    text-align: center;
+    line-height: 12vw;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    overflow: hidden;
+}
+
+ul>li>p {
+    /* display: none; */
+    position: absolute;
+    top: 10px;
+    left: 16vw;
+    color: gray;
+}
+
+p:hover {
+    cursor: default;
+}
+
+ul>li>a>div>img {
+    width: 10vw;
+    height: 10vw;
+}
+
+ul>li div .ADD {
+    width: 100%;
+    height: 100%;
+}
+
+.ask {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    width: 22vw;
+    height: 22vw;
+    text-align: center;
+    line-height: 11vw;
+    border-radius: 1.5vw;
+    top: 0;
+    left: 0;
+}
+
+.ask>.question1 {
+    width: 22vw;
+    height: 7vw;
+    text-align: center;
+    line-height: 7vw;
+    border-radius: 1vw;
+    background-color: white;
+    opacity: .8;
+    border-bottom: 1px solid gray;
+    cursor: default;
+}
+
+.ask>.question1:hover {
+    background-color: gray;
+}
+
+.ask>.question2 {
+    width: 22vw;
+    height: 7vw;
+    text-align: center;
+    line-height: 7vw;
+    border-radius: 1vw;
+    background-color: white;
+    opacity: .8;
+    cursor: default;
+}
+
+.ask>.question2:hover {
+    background-color: gray;
+}
+
+.ask>.question3 {
+    width: 22vw;
+    height: 7vw;
+    text-align: center;
+    line-height: 7vw;
+    border-radius: 1vw;
+    background-color: white;
+    opacity: .8;
+    cursor: default;
+}
+
+.ask>.question3:hover {
+    background-color: gray;
+}
+
+.Ename {
+    white-space: nowrap;
+    overflow: hidden;
+}
